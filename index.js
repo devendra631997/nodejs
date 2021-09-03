@@ -13,6 +13,7 @@ app.get('/', function(request, response) {
 
 app.post('/sentiment', async function(req, res) {
 if(req.body){
+  // g
   if(req.body.TextArr){
     var mydocx =req.body.TextArr
     var arr = []
